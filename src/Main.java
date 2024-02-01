@@ -48,7 +48,6 @@ public class Main {
         String index = input.nextLine();
         System.out.println("type the new value");
         String selection = input.nextLine();
-        a.remove(Integer.parseInt(index));
-        a.add(Integer.parseInt(index),selection);
+        a.set(Integer.parseInt(index),selection);
     }
 }
